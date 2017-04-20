@@ -2,6 +2,10 @@
 
 A sandbox for writing Mocha/Chai tests
 
+## Requirements
+
+- [Node.js](https://nodejs.org/en/)
+
 ## Usage
 
 - `npm install`
