@@ -1,6 +1,6 @@
 class MyClass {
   sayHello() {
-    return "hello";
+    return 'hello';
   }
 }
 
