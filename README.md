@@ -10,6 +10,7 @@ A sandbox for writing Mocha/Chai tests
 
 - `npm install`
 - `npm test`
+- `npm run lint`
 
 ## License
 
