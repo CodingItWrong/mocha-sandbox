@@ -1,4 +1,4 @@
-const fizzBuzz = function(num) {
+module.exports = function fizzBuzz(num) {
   if (divisibleBy(num, 15)) {
     return 'FizzBuzz';
   } else if (divisibleBy(num, 3)) {
@@ -13,5 +13,3 @@ const fizzBuzz = function(num) {
 const divisibleBy = function(dividend, divisor) {
   return dividend % divisor === 0;
 };
-
-module.exports = fizzBuzz;

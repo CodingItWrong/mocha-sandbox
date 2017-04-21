@@ -1,7 +1,5 @@
-class MyClass {
+module.exports = class MyClass {
   sayHello() {
     return 'hello';
   }
-}
-
-module.exports = MyClass;
+};
