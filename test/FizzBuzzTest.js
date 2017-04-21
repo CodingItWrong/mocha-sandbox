@@ -1,5 +1,5 @@
-const { describe, it } = require('mocha');
-const { expect } = require('chai');
+const {describe, it} = require('mocha');
+const {expect} = require('chai');
 const fizzBuzz = require('../src/fizzBuzz');
 
 describe('fizzBuzz()', function() {

@@ -1,5 +1,5 @@
-const { describe, it } = require('mocha');
-const { expect } = require('chai');
+const {describe, it} = require('mocha');
+const {expect} = require('chai');
 const MyClass = require('../src/MyClass');
 
 describe('MyClass', function() {

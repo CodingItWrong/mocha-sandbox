@@ -82,6 +82,10 @@ module.exports = {
         "no-whitespace-before-property": [
             "error"
         ],
+        "object-curly-spacing": [
+            "error",
+            "never"
+        ],
         "padded-blocks": [
             "error",
             "never"
