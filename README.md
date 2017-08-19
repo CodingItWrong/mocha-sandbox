@@ -1,6 +1,6 @@
 # Mocha Sandbox
 
-A sandbox for writing Mocha/Chai tests
+A sandbox for writing Mocha/Chai/Sinon tests
 
 ## Requirements
 
