@@ -1,7 +1,7 @@
-const {describe, beforeEach, it} = require('mocha');
-const {expect} = require('chai');
-const {spy} = require('sinon');
-const Toggle = require('../src/Toggle');
+import {describe, beforeEach, it} from 'mocha';
+import {expect} from 'chai';
+import {spy} from 'sinon';
+import Toggle from '../src/Toggle';
 
 describe('Toggle', () => {
   let toggle, onHandler, offHandler;
