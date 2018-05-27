@@ -12,7 +12,13 @@ module.exports = {
         // safety
         "curly": ["error", "all"],
         "eqeqeq": ["error", "always"],
+        "no-eval": ["error"],
+        "no-implied-eval": ["error"],
+        "no-return-await": ["error"],
+        "no-template-curly-in-string": ["error"],
         "no-var": ["error"],
+        "no-with": ["error"],
+        "require-await": ["error"],
         "semi": ["error", "always"],
 
         // diffs
