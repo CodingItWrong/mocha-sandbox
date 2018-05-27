@@ -26,6 +26,7 @@ module.exports = {
 
         // style
         "array-bracket-spacing": ["error", "never"],
+        "arrow-spacing": ["error"],
         "block-spacing": ["error", "always"],
         "brace-style": ["error", "1tbs"],
         "camelcase": ["error"],
