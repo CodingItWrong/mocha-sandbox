@@ -1,7 +1,10 @@
 import { describe, beforeEach, it } from 'mocha';
-import { expect } from 'chai';
+import chai, { expect } from 'chai';
 import { spy } from 'sinon';
+import sinonChai from 'sinon-chai';
 import Toggle from '../src/Toggle';
+
+chai.use(sinonChai);
 
 describe('Toggle', () => {
   let toggle, onHandler, offHandler;
@@ -28,7 +31,7 @@ describe('Toggle', () => {
     });
 
     it('calls the onHandler', () => {
-      expect(onHandler.calledOnce).to.be.true;
+      expect(onHandler).to.have.been.called;
     });
   });
 
@@ -43,11 +46,11 @@ describe('Toggle', () => {
     });
 
     it('calls the onHandler', () => {
-      expect(onHandler.calledOnce).to.be.true;
+      expect(onHandler).to.have.been.called;
     });
 
     it('calls the offHandler', () => {
-      expect(offHandler.calledOnce).to.be.true;
+      expect(offHandler).to.have.been.called;
     });
   });
 });
