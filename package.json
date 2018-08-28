@@ -28,6 +28,6 @@
     "eslint": "^4.19.1",
     "eslint-config-codingitwrong": "^0.1.0",
     "mocha": "^5.2.0",
-    "sinon": "^5.0.10"
+    "sinon": "^6.1.5"
   }
 }
