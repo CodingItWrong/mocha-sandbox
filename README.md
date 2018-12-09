@@ -1,6 +1,10 @@
 # Mocha Sandbox
 
-A sandbox for writing Mocha/Chai/Sinon tests
+A sandbox for writing Mocha/Chai/Sinon tests. Includes Babel preconfigured with:
+
+- Class properties, including private properties
+- Object rest and spread
+- Private methods
 
 ## Requirements
 
