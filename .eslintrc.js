@@ -8,4 +8,9 @@ module.exports = {
   parserOptions: {
     sourceType: 'module',
   },
+  globals: {
+    'beforeEach': true,
+    'describe': true,
+    'it': true
+  }
 };
