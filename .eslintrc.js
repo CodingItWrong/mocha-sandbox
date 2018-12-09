@@ -11,6 +11,7 @@ module.exports = {
   globals: {
     'beforeEach': true,
     'describe': true,
+    'expect': true,
     'it': true
   }
 };
