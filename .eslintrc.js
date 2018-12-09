@@ -12,6 +12,7 @@ module.exports = {
     'beforeEach': true,
     'describe': true,
     'expect': true,
-    'it': true
+    'it': true,
+    'sinon': true
   }
 };

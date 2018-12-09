@@ -1,12 +1,11 @@
-import { spy } from 'sinon';
 import Toggle from '../src/Toggle';
 
 describe('Toggle', () => {
   let toggle, onHandler, offHandler;
 
   beforeEach(() => {
-    onHandler = spy();
-    offHandler = spy();
+    onHandler = sinon.spy();
+    offHandler = sinon.spy();
     toggle = new Toggle(onHandler, offHandler);
   });
 
