@@ -4,8 +4,6 @@ import { spy } from 'sinon';
 import sinonChai from 'sinon-chai';
 import Toggle from '../src/Toggle';
 
-chai.use(sinonChai);
-
 describe('Toggle', () => {
   let toggle, onHandler, offHandler;
 
