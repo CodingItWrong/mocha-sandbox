@@ -1,1 +1,2 @@
 --require test/common
+--require @babel/register

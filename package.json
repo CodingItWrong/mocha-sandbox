@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require @babel/register",
+    "test": "mocha",
     "lint": "eslint src test"
   },
   "repository": {
