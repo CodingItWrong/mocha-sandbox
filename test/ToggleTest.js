@@ -1,7 +1,6 @@
 import { describe, beforeEach, it } from 'mocha';
-import chai, { expect } from 'chai';
+import { expect } from 'chai';
 import { spy } from 'sinon';
-import sinonChai from 'sinon-chai';
 import Toggle from '../src/Toggle';
 
 describe('Toggle', () => {
